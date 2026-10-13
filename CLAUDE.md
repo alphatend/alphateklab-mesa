@@ -3,7 +3,7 @@
 QR y NFC por mesa para restaurantes: carta para pedir (`mesa.html`), cocina, salón, kiosco y panel del dueño.
 El negocio de la demo es «Pixbae · cocina panameña» (restaurante de ejemplo). Nunca «fonda» como nombre: según la DGI
 las fondas no cobran ITBMS, y eso es una opción de Ajustes («tipo de local»), no el ejemplo.
-Sitio estático para GitHub Pages (`https://jojomunoz.github.io/alphateklab-mesa/`): HTML + CSS + módulos ES, sin build.
+Sitio estático para GitHub Pages (`https://alphatend.github.io/alphateklab-mesa/`): HTML + CSS + módulos ES, sin build.
 Reglas comunes: `~/alphateklab/BRIEF.md`. Especificación: `~/alphateklab/ESPEC-mesa.md`. Guía de diseño:
 `~/Documents/NovahWEB/conocimiento/GUIA-DISENO-SIN-SLOP.md`.
 

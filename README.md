@@ -5,7 +5,7 @@ la cuenta, la divide, elige la propina y paga. La cocina recibe las comandas por
 cada mesa, cobra y arma el borrador de factura, hay una pantalla táctil de autopedido y un panel para el dueño.
 
 Es una demo con un restaurante **ficticio**, «Pixbae · cocina panameña» (restaurante de ejemplo, Ciudad de Panamá).
-Publicada en `https://jojomunoz.github.io/alphateklab-mesa/`. La única marca de alphateklab es el logo de la barra
+Publicada en `https://alphatend.github.io/alphateklab-mesa/`. La única marca de alphateklab es el logo de la barra
 de la demo (`img/marca/`, copia de `alphateklab/assets/marca/`); lo demás es del restaurante de ejemplo.
 
 ## Las vistas

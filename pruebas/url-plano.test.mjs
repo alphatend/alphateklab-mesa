@@ -22,9 +22,9 @@ test('sala: 10 caracteres sin letras que se confunden', () => {
 });
 
 test('URL de la mesa: corta y con la forma de la especificación', () => {
-  const base = baseDe('https://jojomunoz.github.io/alphateklab-mesa/index.html?x=1#y');
-  assert.equal(base, 'https://jojomunoz.github.io/alphateklab-mesa/');
-  assert.equal(urlMesa(base, 'abcdefghjk', 7), 'https://jojomunoz.github.io/alphateklab-mesa/mesa.html?sala=abcdefghjk&m=7');
+  const base = baseDe('https://alphatend.github.io/alphateklab-mesa/index.html?x=1#y');
+  assert.equal(base, 'https://alphatend.github.io/alphateklab-mesa/');
+  assert.equal(urlMesa(base, 'abcdefghjk', 7), 'https://alphatend.github.io/alphateklab-mesa/mesa.html?sala=abcdefghjk&m=7');
   assert.throws(() => urlMesa(base, 'corta', 7), RangeError);
   assert.throws(() => urlMesa(base, 'abcdefghjk', 0), RangeError);
 });
@@ -42,7 +42,7 @@ test('leer ?sala=…&m=… sin adivinar', () => {
 });
 
 test('NFC: la URL de mesa entra en una NTAG213 (144 bytes)', () => {
-  const url = 'https://jojomunoz.github.io/alphateklab-mesa/mesa.html?sala=abcdefghjk&m=999';
+  const url = 'https://alphatend.github.io/alphateklab-mesa/mesa.html?sala=abcdefghjk&m=999';
   // «https://» se guarda como 1 byte de prefijo; el resto, 71 bytes; más 8 fijos = 79
   assert.equal(bytesNdefUrl(url), 8 + url.length - 'https://'.length);
   const r = cabeEnEtiqueta(url, 'NTAG213');
